@@ -1,0 +1,14 @@
+{
+  "name": "xueyi-archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Xueyi He's personal portfolio: interaction, product and technology, 3D art, graphic design.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node --check public/script.js"
+  }
+}
